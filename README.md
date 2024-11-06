@@ -45,7 +45,6 @@ Comprehensive unit tests to validate the password validation logic.
 Before setting up the project, make sure you have the following installed:
 
 Node.js (v12 or higher)
-npm or yarn
 
 I recommend using nvm for managing node versions.
 
@@ -69,16 +68,45 @@ Install dependencies:
 If you are using npm, run:
 
 ```bash
-npm install
+npm install --force
 ```
+
+If you are using yarn, run:
+
+```bash
+yarn install
+```
+
+Running:
+
+If you are using npm, run:
+
+```bash
+npm run dev
+```
+
+If you are using yarn, run:
+
+```bash
+yarn dev
+```
+
 ### Tests
 This library includes Jest and React Testing Library tests to ensure everything works as expected. The tests are located in the components/PasswordEntry.test.tsx file.
 
 ### Running Tests
 To run the tests, execute the following command:
 
+If you are using npm, run:
+
 ```bash
-npm test
+npm run test
+```
+
+If you are using yarn, run:
+
+```bash
+yarn test
 ```
 
 You should see test results showing whether all tests have passed or if there are any issues.
