@@ -46,11 +46,22 @@ Before setting up the project, make sure you have the following installed:
 
 Node.js (v12 or higher)
 npm or yarn
+
+I recommend using nvm for managing node versions.
+
+Install nvm from [here](https://github.com/creationix/nvm)
+
+if you are using nvm, then install the node version for this project:
+
+```sh
+nvm i
+```
+
 Installation
 Clone the repository:
 
 ```bash
-git clone https://github.com/dmascia/password-entry-library.git
+git clone git@github.com:dmascia/password-entry-library.git
 cd password-entry-library
 ```
 Install dependencies:
